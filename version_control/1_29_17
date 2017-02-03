@@ -1,0 +1,81 @@
+<!DOCTYPE html lang="en">
+
+<html>
+<head>
+	<title>Presenter &raquo; Cycle Map Mobile </title>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ 
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/presenter1.js"></script>
+    <script type="text/javascript" src="json/pages.json"></script>
+
+</head>
+<body>
+
+	<div class="container">
+
+		<div id="header" class="row top-buffer justify-content-center">
+
+			<div class="col-12 col-md-10">
+				<h6 id="project">Cycle Map Mobile</h6>
+				<h1 id="title">Saved Locations</h1>
+				<p id="summary" class="lead">Adding locations to your saved locations and retrieving them as start or end points.</p>
+			</div>
+
+		</div>
+
+		<div class="row top-buffer justify-content-center">
+
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 col-xl-3 main">
+					<div class="top-fixer">&nbsp;</div>
+
+					<!-- <img src="images/bg.png" class="img-fluid"> -->
+					<video id="prototype" src="videos/1_0.mp4" class="img-fluid" autoplay="true" type="video/mp4"/></video>
+					<div class="bottom-fixer">&nbsp;</div>
+					<div class="left-fixer">&nbsp;</div>
+			</div>
+
+			<div id="steps" class="col-xs-12 col-sm-7 col-md-5 col-lg-6 col-xl-7">
+
+				<p class="userFlowStep"><b>Saved locations</b> allow you to quickly select from your saved places without having to search each time.</p>
+
+		        <p class="userFlowStep">To save a location, first search for a location in either of the start or stop fields, then select the location to set it as a start or stop point.</p>
+
+		        <p class="userFlowStep">Once you've have the location set as a start or stop point, tap again into the menu and select <b>Save Location</b>.</p>
+
+		        <p class="userFlowStep">In the pop-up message, you can enter a new name for this location, or just use the default name and tap <b>Save</b>.</p>
+
+		        <p class="userFlowStep">Your location is now saved. In the future, you can select your new saved location from the menu under <b>Saved Locations</b>.</p>
+
+			</div>
+		</div>
+
+		<div class="row bottom-buffer justify-content-center ">
+			<div class="col-xs-12 col-md-10">
+				<div class="row liner top-buffer-large d-flex justify-content-between no-gutters">
+					<div class="col-6 ">
+					<a href="#" id="prevPage" class="bg-white">&laquo; Saved Routes</a>
+					</div>
+
+					<div class="col-6 text-right">
+					<a href="#" id="nextPage" class="bg-white">Saved Routes &raquo;</a> 
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div> <!-- container -->
+
+</body>
+</html>
