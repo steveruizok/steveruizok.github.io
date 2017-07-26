@@ -1,0 +1,223 @@
+var project = {
+	"name" : "Cycle Map Mobile App",
+	"author" : "Steve Ruiz",
+	"version" : "0.1"
+};	
+
+var pages = [
+		{	"title" : "Basic Routes",
+			"type"	:	"demoPage",
+			"summary" : "Cycle Map will set your route using your start and stop locations.",
+			"steps" : {
+				"a0": {
+					"p" : "To start, we tap into the <bb>Start Menu</bb> on the left side of the menu. Here we can search for a location using our phone's keyboard. We're also given some shortcuts to use, but more on those later.",
+					"v" : "videos/setRoute_0.mp4"
+						},
+				"a1" : {
+					"p" : "For now, let's enter a location using our keyboard. As we do, the menu will change to display several suggestions based on what we've typed.",
+					"v" : "videos/setRoute_1.mp4"
+						},
+				"a2" : {
+					"p" : "Tapping the one we want will set it as our Start Location, shown on the map with a green marker.",
+					"v" : "videos/setRoute_2.mp4"
+						},
+				"a3" : {
+					"p" : "Next, we'll set a stop location by tapping into the stop menu. You'll notice the stop menu has several shortcuts for setting your destination.</p>",
+					"v" : "videos/setRoute_3.mp4"
+	 					},
+	 			"a4" : {
+					"p" : "We'll skip those and search for our stop location as we did before, typing in a destination so the app can show us its suggestions.",
+					"v" : "videos/setRoute_4.mp4"
+	 					},
+	 			"a5" : {
+					"p" : "Tapping a suggestion will set it as our Stop Location and show it on my map using a red marker. The app has also caluclated a route and shown it on the map. Note that any time we've set both a start and stop location, however we set them, Cycle Map will calculate a route between the two.",
+					"v" : "videos/setRoute_5.mp4"
+						},
+				"a6" : {
+					"p" : "Once a route is set, we can get turn by turn directions by tapping the Turns tab.",
+					"v" : "videos/setRoute_6.mp4"
+	 					},
+	 			"a7" : {
+					"p" : "We can also use the side menu to view elevation, export the route to GPS, and more.",
+					"v" : "videos/setRoute_7.mp4"
+	 					}
+	 				}
+
+	 			},
+
+ 		{	"title" : "Reversing a Route",
+ 			"type"	:	"demoPage",
+			"summary" : "Need a way back? Swap your start and end locations.",
+			"steps" : {
+				"a0": {
+					"p" : "Need to find your way back? First, let's set a route to show off Cyle Map's reverse feature.",
+					"v" : "videos/reverseRoute_0.mp4"
+						},
+				"a1" : {
+					"p" : "When we have a route set, our first step is to open the map menu by tapping the menu icon.",
+					"v" : "videos/reverseRoute_1.mp4"
+						},
+				"a2" : {
+					"p" : "Now we tap the reverse icon.",
+					"v" : "videos/reverseRoute_2.mp4"
+						},
+				"a3" : {
+					"p" : "Our route is now reversed - the start location is the end location and vis versa. Want to change it back? Just open the map menu and tap the reverse icon again.",
+					"v" : "videos/reverseRoute_3.mp4"
+	 					}
+	 				}
+ 			},
+
+		{	"title" : "Via Points",
+			"type"	:	"demoPage",
+			"summary" : "Add stops along the way using Via Points.",
+			"steps" : {
+				"a0": {
+					"p" : "With <bb>Via Points</bb>, our route can go from A to B and anywhere in between. To set a via point, we first need to set a route by entering a start and stop location.",
+					"v" : "videos/viaPoint_0.mp4"
+						},
+				"a1" : {
+					"p" : "Next, we long press on the map where we want to set our Via Point.",
+					"v" : "videos/viaPoint_1.mp4"
+						},
+				"a2" : {
+					"p" : "Tapping the icon will set our Via Point. Cycle Map will automatically incorporate this into a new route and show it on the map.",
+					"v" : "videos/viaPoint_2.mp4"
+	 					}
+	 				}
+	 			},
+
+		{	"title" : "Saved Locations",
+			"type"	:	"demoPage",
+			"summary" : "Save a favorite location to use later in your Cycle Map routes.",
+			"steps" : {
+				"a0": {
+					"p" : "<b>Saved locations</b> allow you to quickly select from your saved places without having to search each time.",
+					"v" : "videos/savedLocations_0.mp4"
+						},
+				"a1" : {
+					"p" : "To begin, set a location as either a start or stop point.",
+					"v" : "videos/savedLocations_1.mp4"
+						},
+				"a2" : {
+					"p" : "Once you've have the location set, tap again into the menu and select <b>Save Location</b>.",
+					"v" : "videos/savedLocations_2.mp4"
+						},
+				"a3" : {
+					"p" : "In the pop-up message, you can enter a new name for this location, or just use the default name and tap <b>Save</b>.",
+					"v" : "videos/savedLocations_3.mp4"
+	 					},
+	 			"a4" : {
+					"p" : "Your location is now saved. In the future, you can select your new saved location from the menu under <b>Saved Locations</b>",
+					"v" : "videos/savedLocations_4.mp4"
+	 					}
+	 				}
+	 			},
+
+ 		{	"title" : "Saved Routes",
+ 			"type"	:	"demoPage",
+			"summary" : "Plan a ride for later or store your favorite routes for quick access.",
+			"steps" : {
+				"a0": {
+					"p" : "Before we save a route, we'll first need to have a route set on the map. As usual, we can set a route by selecting both a start and stop location.",
+					"v" : "videos/savedRoutes_1.mp4"
+						},
+				"a1" : {
+					"p" : "Now we can open the <b1>side menu</b1> by tapping on the icon in the lower right of our map, then tapping the check-mark button for Save Route.",
+					"v" : "videos/savedRoutes_2.mp4"
+						},
+				"a2" : {
+					"p" : "In the pop-up message, you can enter a new name for this route, or just use the default name and tap <b>Save</b>. The Routes tab will open and show us where our new saved route has been stored.",
+					"v" : "videos/savedRoutes_3.mp4"
+						},
+				"a3" : {
+					"p" : "From now on, we can load this route by tapping on its name in the Routes tab. For now, we can tap the Back button to return to the map.",
+					"v" : "videos/savedRoutes_4.mp4"
+	 					}
+	 				}
+ 			}
+	 	
+	 	];
+
+var designPages = [
+		{ 
+			"title" : "Design Process Introduction",
+			"type" : "designPage",
+			"summary" : "From early sketches to final prototype, how Cycle Map came together.",
+			"body_content" : "<div class='row'><div class='col-md-7'><img src='images/cycleMap.jpg' class='img-fluid'></div><div class='col-md-5'><p>On the following pages, I'll walk through the design process for <bb>Cycle Map</bb>, starting with the sketch at left.</p><p>I started by imagining myself as I had been earlier that week, trying to plot a route on my phone after my GPS failed during a ride. My first concern was for context: unlike the desktop website that inspired the project, this mobile design would have to be usable both at home and outdoors, and designed to accept precision choices despite a less accurate method of interaction.</p><p>In this sketch, you can see two of the main problems I'd face going forward: <b>the menu</b>, and how a user could enter their start and stop locations; and <b>route adjustment</b> through map interactions.</p></div></div>",
+		},
+
+		{ 
+			"title" : "First Prototype",
+			"type" : "designPage",
+			"summary" : "Jumping from sketch to Framer.",
+			"body_content" : "<div class='row top-buffer justify-content-center demo'><div class='col-12 col-sm-5 main'><div id='leftPane'><div class='top-fixer'></div><div class='left-fixer'></div><img src='images/blankScreen.jpg' class='img-fluid blankImg'><video id='prototype' src='videos/cycleMap_v1.mp4' controls='controls' class='img-fluid' autoplay='true' preload='auto' type='video/mp4'/></video>&nbsp;</div></div><div id='rightPane' class='col-12 col-sm-7'><div id='steps' class='col-12'><p>With the basics in mind, I started in on a first prototype of the interface, beginning with the most simple elements: setting start and stop locations, displaying a route on the map, and pulling up (literally, in this version) turn by turn directions.</p><p>I stuck close to the design used by Cycle.travel in modeling the menu as two fields stacked vertically, with action buttons below. In trying to keep the map view uncluttered, I created an expanding menu to hold less commonly-used actions, such as exporting and reversing routes, each of which opened alerts for further selections.</p><p>However, there was more to show and the menus I'd created weren't enough. Taking cues from cycle.travel's mobile web version, as well as from iOS's design guidelines, I started a second prototype that would better allow me to organize the interface.</p></div></div></div>"
+		},
+
+		{ 
+			"title" : "Second Prototype",
+			"type" : "designPage",
+			"summary" : "Making the prototype more iOS native.",
+			"body_content" : "<div class='row top-buffer justify-content-center demo'><div class='col-12 col-sm-5 main'><div id='leftPane'><div class='top-fixer'></div><div class='left-fixer'></div><img src='images/blankScreen.jpg' class='img-fluid blankImg'><video id='prototype' src='videos/cycleMap_v2.mp4' controls='controls' class='img-fluid replay' autoplay='true' preload='auto' type='video/mp4'/></video>&nbsp;</div></div><div id='rightPane' class='col-12 col-sm-7'><div id='steps' class='col-12'><p>On the second prototype, I added several features native to iOS.</p><p>The most significant was the addition of a tab bar, that replaced the prior edge swipe action to open the directions view, and that introduced a list of saved routes. I also began modifying the menu to behave more similarly to the iOS guidelines, with action buttons and the beginnings of a tint style.</p></div></div></div>"
+		},
+
+		{ 
+			"title" : "User Stories and Alerts",
+			"type" : "designPage",
+			"summary" : "Generating feature ideas and user flows.",
+			"body_content" : "<div class='row'><div class='col-md-7'><img src='images/userStories.jpg' class='img-fluid'><br><img src='images/menuAlerts.jpg' class='img-fluid'></div><div class='col-md-5'><p>While thinking about the design's direction and features, I drew up several user stories to help me imagine how a mobile app like Cycle Map would be used.</p><p>This idea session made it clear to me that the menu would have to do much more than simply accepting start and stop locations. I would need to redesign it to make location suggestions, handle route modifications, and provide shortcuts based on the user's context.</p><p>I began sketching ideas for the suggestions menu, as well as for alerts, suggestion features, and route adjustment tools.</p></div></div>"
+		},
+
+		{ 
+			"title" : "Third Prototype",
+			"type" : "designPage",
+			"summary" : "A newer, better, smarter menu.",
+			"body_content" : "<div class='row top-buffer justify-content-center demo'><div class='col-12 col-sm-5 main'><div id='leftPane'><div class='top-fixer'></div><div class='left-fixer'></div><img src='images/blankScreen.jpg' class='img-fluid blankImg'><video id='prototype' src='videos/cycleMap_v3.mp4' controls='controls' class='img-fluid replay' autoplay='true' preload='auto' type='video/mp4'/></video>&nbsp;</div></div><div id='rightPane' class='col-12 col-sm-7'><div id='steps' class='col-12'><p>I built the third prototype from the ground up, ditching the original menu's assets entirely and designing a new menu that kept the dimensions of a standard iOS menu, while still using twin fields for a route's start and stop locations.</p><p>Designing this menu required some tricky animation, moving icons and expanding fields to make it clear which of the two fields was selected and open. Adding the start and stop icons to the menu was a heavy-handed solution, and didn't match with the iOS style, but helped keep things clear across state changes.</p><p>I also moved the account icon from the menu to the tab bar and began framing out that section of the design.</p></div></div></div>"
+		},
+
+		{ 
+			"title" : "Fourth Prototype",
+			"type" : "designPage",
+			"summary" : "Tweaking for clarity.",
+			"body_content" : "<div class='row top-buffer justify-content-center demo'><div class='col-12 col-sm-5 main'><div id='leftPane'><div class='top-fixer'></div><div class='left-fixer'></div><img src='images/blankScreen.jpg' class='img-fluid blankImg'><video id='prototype' src='videos/cycleMap_v4.mp4' controls='controls' class='img-fluid replay' autoplay='true' preload='auto' type='video/mp4'/></video>&nbsp;</div></div><div id='rightPane' class='col-12 col-sm-7'><div id='steps' class='col-12'><p>The fourth prototype was a close iteration, again with changes to the menu. I redesigned the start and stop icons to better match the iOS guidelines, using an outlined icon that filled when a user opened its associated menu.</p><p>Already the design was playing loose with the standard role of the iOS menu. At this stage, I felt that the more native I could make it appear, the better the design would benefit from a user's familiarity with how a standard iOS menu should behave.</p></div></div></div>"
+		},
+
+		{ 
+			"title" : "A More Responsive Design",
+			"type" : "designPage",
+			"summary" : "Redesigning for different devices.",
+			"body_content" : "<div class='row top-buffer justify-content-center demo'><div class='col-12 col-sm-5 main'><div id='leftPane'><div class='top-fixer'></div><div class='left-fixer'></div><img src='images/blankScreen.jpg' class='img-fluid blankImg'><video id='prototype' src='videos/cycleMap_v4.5.mp4' controls='controls' class='img-fluid replay' autoplay='true' preload='auto' type='video/mp4'/></video>&nbsp;</div></div><div id='rightPane' class='col-12 col-sm-7'><div id='steps' class='col-12'><p>Here I took a side path, re-writing much of the design to be responsive rathe than static. Before I got any further, I wanted to be sure my prototype would look reasonably well on different sized devices. Certain assets would remain outsized for now, however going forward all core design elements would adjust automatically to varying screen frames.</p></div></div></div>"
+		},
+
+		{ 
+			"title" : "Menu Sketches",
+			"type" : "designPage",
+			"summary" : "Sketching a better menu.",
+			"body_content" : "<div class='row'><div class='col-md-7'><img src='images/menuFlow.jpg' class='img-fluid'><br><img src='images/savedLocations0.jpg' class='img-fluid'></div><div class='col-md-5'><p>Returning to ideas that originated with my user stories, I started in on a new menu that would present a user with default suggestions and shortcuts, including access to Saved Locations, routing to nearby cafes or cycle shops, and the options to change a location or clear a route from the map. The actual flow ended up being much more complicated, especially as I controlled for cancel events and deletions.</p><p>Around this time I had also been thinking of how to place controls that were both contextual and rarely used, such as the control to save a start or end location. Most of these controls hinged on whether the user was addressing the start or stop location - or, later, points in between. The addition of an intermediary menu turned out to be my solution, appearing before a user entered a search or after a location had already been set, and allowing me to display these controls at the right moment and in the right context.</p><p>Several of these features involved alerts (which were also due for rethinking) so I wireframed these new flows.</div></div>",
+		},
+
+		{ 
+			"title" : "Fifth Prototype",
+			"type" : "designPage",
+			"summary" : "The finished menu and dynamic routes.",
+			"body_content" : "<div class='row top-buffer justify-content-center demo'><div class='col-12 col-sm-5 main'><div id='leftPane'><div class='top-fixer'></div><div class='left-fixer'></div><img src='images/blankScreen.jpg' class='img-fluid blankImg'><video id='prototype' src='videos/cycleMap_v5.mp4' controls='controls' class='img-fluid replay' autoplay='true' preload='auto' type='video/mp4'/></video>&nbsp;</div></div><div id='rightPane' class='col-12 col-sm-7'><div id='steps' class='col-12'><p>With the addition of the new menu, the design was beginning to enter its final stages. I now began developing certain features necessary to my imagined user flows, such as setting routes through links on the Routes list, changing locations, and using the My Location feature.</p><p>Much of the development at this stage involved simulating dynamic route calculation. In the prototype, rather than using a single asset for the route as I had been doing, I organized routes and locations in a more discrete data structure, by defining each location as an object with its own coordinates, and each possible route as an object with its own start and stop locations, route asset, and reversed route. With this in place the prototype began to be more dynamic, letting me test different flows by allowing a user to enter a route, then modify it through any number of operations in any order.</p><p>I also spent time making the prototype more iOS-like, introducing page transitions and spring animations that matched what would be expected in a final application. I adjusted many other animations, such as the placement of route markers, to fit with the new feel of the design.</p></div></div></div>"
+		},
+
+		{ 
+			"title" : "Fifth Prototype",
+			"type" : "designPage",
+			"summary" : "Saving locations and routes.",
+			"body_content" : "<div class='row top-buffer justify-content-center demo'><div class='col-12 col-sm-5 main'><div id='leftPane'><div class='top-fixer'></div><div class='left-fixer'></div><img src='images/blankScreen.jpg' class='img-fluid blankImg'><video id='prototype' src='videos/cycleMap_v5.mp4' controls='controls' class='img-fluid replay' autoplay='true' preload='auto' type='video/mp4'/></video>&nbsp;</div></div><div id='rightPane' class='col-12 col-sm-7'><div id='steps' class='col-12'><p>In the fifth prototype, which is the most recent, I built on the data structure I had written for locations and routes to create dynamic menus for Saved Locations and Saved Routes. I could now show how a user could save a location and pull it again from the menu; or set a route on the map, save it for later, and recall it using a link on the Routes list.</p><p>I also began on Via Points, which presented a host of new design challenges. However, at this stage I felt the prototype was basically complete, demonstrating several of the most common user flows without requiring separate files or assets for each.</p></div></div></div>"
+		},
+
+		{ 
+			"title" : "Conclusion",
+			"type" : "designPage",
+			"summary" : "A finished prototype, maybe.",
+			"body_content" : "<div class='row'><div class='col-md-7'><img src='images/viaPoints.jpg' class='img-fluid'></div><div class='col-md-5'><p>Since this was a personal project, and I had no deadlines to hit or clients to convince, calling it complete was a somewhat arbitrary decision. I could go on: Via Points are especially interesting, and I've included here some sketches for how they might work. However, I'll leave it alone for now.</p><p>Thanks for reading through this design history. If you'd like to explore the final prototype, you can explore it <a href='https://framer.cloud/cnuRj/' alt='Cycle Map'>here</a>. If you have any comments or criticism, please <a href='/contact.php' alt='Contact'>let me know</a>.</div></div>",
+		},
+	];
+
+var icons = { 
+	"replay" : "<img class='icon play' src='images/replay_1.png' href='#'/>"
+	};
